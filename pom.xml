@@ -16,7 +16,6 @@
     <description>A simple rest web app</description>
     <properties>
         <java.version>17</java.version>
-        <tomcat.version>8.5.84</tomcat.version>
     </properties>
     <dependencies>
         <dependency>
@@ -41,7 +40,6 @@
     </dependencies>
 
     <build>
-        <finalName>SampleRest</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
